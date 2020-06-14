@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>McDonald's</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 60px;
+            color: darkorange;
+        }
+
+        body {
+            background-image: url("McDonald's.png");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        #kcal {
+            text-align: right;
+        }
+
+        #BIGintroduce {
+            font-size: 15px;
+            font-weight: bold;
+            color: green;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: red;
+        }
+
+        #doubleintroduce {
+            font-size: 15px;
+            font-weight: bold;
+            color: green;
+        }
+
+        #spicyintroduce {
+            font-size: 15px;
+            font-weight: bold;
+            color: green;
+        }
+
+        #next{
+            float: right;
+        }
+        #home{
+            float: left;
+        }
+        a{
+            text-decoration: none;
+            color:darkgrey;
+            text-shadow:2px 2px gray;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>McDonald's 시그니쳐 메뉴 소개 페이지</h1>
+    <table>
+        <div class="bigmac"><img src="빅맥.png" width="200" align=left>
+            <main id="BIGintroduce"><br>
+                <h2>빅맥</h2>
+                100% 순 쇠고기 패티 두 장에 빅맥®만의 특별한 소스.
+                입안에서 살살 녹는 치즈와 신선한 양상추, 양파, 그리고 피클까지.
+                50년 넘게 전 세계인의 입맛을 사로 잡은 버거의 대명사.<br><br>
+                <div id="kcal">열량 548kcal / 당 7g / 단백질 25g / 포화지방 10g / 나트륨 945mg</div>
+            </main>
+        </div>
+        <br><br><br><br><br><br>
+        <div class="double""><img src=" 더블 1955 버거.png" width="200" align=left>
+            <main id="doubleintroduce"><br>
+                <h2>더블 1955버거</h2>
+                113g 두툼한 순 쇠고기 패티와 그릴 어니언,
+                오리지널의 맛을 두 배 더 푸짐한 버거<br><br>
+                <div id="kcal">열량 746kcal / 당 14g / 단백질 50g / 포화지방 17g / 나트륨 861mg</div>
+            </main>
+        </div>
+        <br><br><br><br><br><br>
+        <div class="spicy"><img src="맥스파이시 상하이 버거.png" width="200" align=left>
+            <main id="spicyintroduce"><br>
+                <h2>맥스파이시 상하이버거</h2>
+                매콤한 시즈닝을 입힌 100% 닭가슴 통살 위에
+                아삭아삭한 양상추와 신선한 토마토~
+                겉은 바삭, 속은 부드러운 치킨 패티의 매콤함으로
+                입맛도 기분도 화끈한 버거<br><br>
+                <div id="kcal">열량 464kcal / 당 9g / 단백질 22g / 포화지방 4g / 나트륨 985mg</div>
+        </div>
+        <br><br>
+            <a id=home href="홈페이지 제작.html"><font size="6">메인페이지로 이동</a></font>
+            <a id=next href="BurgerKing.html"><font size="6">버거킹 소개페이지로 이동</a></font>
+
+    </table>
+</body>
+
+</html>
